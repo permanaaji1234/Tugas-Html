@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 90vh;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 97px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+main, footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+h1{
+    cursor: pointer;
+}
+
+.left{
+    background-color: #1E1E1E;
+}
+
+.left>.Angka{
+    position: absolute;
+    top: 35%;
+    left:72%;
+    color: #FFFFFF;
+}
+
+.right{
+    background-color: #222325;
+}
+
+.right>.Angka{
+    position: absolute;
+    top: 35%;
+    left:23%;
+    color: #FFFFFF;
+}
+
+.Nama>.pemain{
+    display: grid;
+    grid-template-columns: 5% 95%;
+}
+
+.Nama2>.pemain{
+    display: grid;
+    grid-template-columns: 95% 5%;
+}
+
+.pemain>.name{
+    background-color: #222325;
+    padding: 6px;
+    color: #FFFFFF;
+    text-align: left;
+    
+}
+
+.pemain>.tempat{
+    background-color: #FFD600;
+    padding: 6px;
+}
+
+.Nama2>.pemain>.name{
+    background-color:#535456;
+    padding: 6px;
+    text-align: right;
+    
+}
+
+
+
+footer{
+    height: 20px;
+    margin: 0;
+}
+
+@media(max-width:768px){
+    
+    main{
+        font-size: 40px;
+        height: 770px;
+    }
+    .left>.Angka{
+        top: 20%;
+        left:65%;
+        
+    }
+    .right>.Angka{
+        top: 20%;
+        left:15%;
+    }
+    .Nama>.pemain{
+        display: grid;
+        grid-template-columns: 15% 85%;
+        font-size: 8px;
+    }
+    .Nama2>.pemain{
+        display: grid;
+        grid-template-columns: 85% 15%;
+        font-size: 8px;
+
+    }
+}
+
+
+/*ffffffffffffff*/
+
